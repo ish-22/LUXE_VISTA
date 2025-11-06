@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Offers">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Offer 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer1" />
+
+                <TextView
+                    android:id="@+id/offer_title_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Summer Splash Discount"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy 20% off on all rooms and suites this summer!"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starting at Rs. 30000 per night"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Repeat similar blocks for the remaining offers -->
+
+            <!-- Offer 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer2" />
+
+                <TextView
+                    android:id="@+id/offer_title_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Romantic Getaway Package"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect for couples—includes a romantic dinner and spa session."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starting at Rs. 75000 per night"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer4" />
+
+                <TextView
+                    android:id="@+id/offer_title_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spa Relaxation Special"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unwind with a full day spa pass and complimentary refreshments."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 25000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer3" />
+
+                <TextView
+                    android:id="@+id/offer_title_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weekend Family Bundle"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fun for the whole family with activities and meals included."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 50000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer7" />
+
+                <TextView
+                    android:id="@+id/offer_title_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All-Inclusive Luxury"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Everything you need for a perfect getaway, all-inclusive."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starting at Rs. 120000 per night"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer10" />
+
+                <TextView
+                    android:id="@+id/offer_title_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Romantic Couple Retreat"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy a romantic getaway with special amenities for two."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 90000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer8" />
+
+                <TextView
+                    android:id="@+id/offer_title_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beachfront Package"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stay right on the beach with ocean views and complimentary meals."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 100000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer6" />
+
+                <TextView
+                    android:id="@+id/offer_title_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adventure and Exploration"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="An action-packed adventure package with tours and activities."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 110000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer11" />
+
+                <TextView
+                    android:id="@+id/offer_title_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Golf Retreat Special"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exclusive golf package with course access and equipment."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 40000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Offer 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B3D8B0"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/offer_image_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/offer12" />
+
+                <TextView
+                    android:id="@+id/offer_title_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wellness and Detox"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp" />
+
+                <TextView
+                    android:id="@+id/offer_description_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rejuvenate with our detox program and wellness sessions."
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/offer_price_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: Rs. 65000"
+                    android:textSize="16sp"
+                    android:textColor="#4CAF50"
+                    android:paddingBottom="8dp" />
+
+                <Button
+                    android:id="@+id/book_now_button_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

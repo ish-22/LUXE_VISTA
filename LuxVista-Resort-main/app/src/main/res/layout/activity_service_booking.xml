@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/selected_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Service"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"/>
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Email"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Phone"
+        android:layout_below="@id/user_email"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/booking_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Booking Date"
+        android:layout_below="@id/user_phone"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/user_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Any Queries"
+        android:layout_below="@id/booking_date"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/submit_booking_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Booking"
+        android:layout_below="@id/user_query"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

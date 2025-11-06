@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Luxe Vista</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
+    <string name="new_username">New Username</string>
+    <string name="new_email">New Email</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update_profile">Update Profile</string>
+</resources>

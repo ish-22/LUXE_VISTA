@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#B3D8B0"
+    android:padding="16dp">
+
+    <!-- User Name Display -->
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, [User Name]"
+        android:textSize="24sp"
+        android:textColor="#1E5F32"
+        android:padding="8dp" />
+
+    <!-- Feedback Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedbacks"
+        android:textSize="20sp"
+        android:textColor="#1E5F32"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Feedback Input Section -->
+    <EditText
+        android:id="@+id/feedback_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your feedback"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:padding="16dp"
+        android:rating="3.5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:padding="10dp"
+        android:backgroundTint="#1E5F32"
+        android:textColor="#FFFFFF"
+        android:elevation="3dp" />
+
+    <!-- Scrollable Feedback Display Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/feedback_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>

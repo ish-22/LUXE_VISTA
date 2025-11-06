@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    tools:context=".Services">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Service Item Template -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/service_card_background"
+                android:elevation="4dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/spa_service_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/spa_image"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/spa_service_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spa Appointment"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E5F32" />
+
+                <TextView
+                    android:id="@+id/spa_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Relax and rejuvenate with our luxurious spa treatments."
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginTop="4dp" />
+
+                <Button
+                    android:id="@+id/book_spa_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp" />
+            </LinearLayout>
+
+            <!-- Repeat for other services -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/service_card_background"
+                android:elevation="4dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/fine_dining_service_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/fine_dining_image"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/fine_dining_service_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fine Dining Reservations"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E5F32" />
+
+                <TextView
+                    android:id="@+id/fine_dining_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy a gourmet dining experience with our expert chefs."
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginTop="4dp" />
+
+                <Button
+                    android:id="@+id/book_dining_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/service_card_background"
+                android:elevation="4dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/poolside_service_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/poolside_image"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/poolside_service_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Poolside Cabanas"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E5F32" />
+
+                <TextView
+                    android:id="@+id/poolside_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reserve your private cabana by the pool and enjoy the sun."
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginTop="4dp" />
+
+                <Button
+                    android:id="@+id/book_poolside_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/service_card_background"
+                android:elevation="4dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/fitness_class_service_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/fitness_class_image"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/fitness_class_service_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitness Class"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E5F32" />
+
+                <TextView
+                    android:id="@+id/fitness_class_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Join our daily fitness classes for a healthy lifestyle."
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginTop="4dp" />
+
+                <Button
+                    android:id="@+id/book_fitness_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#B2EBF2"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/room_service_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/room_service_image"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/room_service_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room Service"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E5F32" />
+
+                <TextView
+                    android:id="@+id/room_service_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy the convenience of room service for meals and beverages."
+                    android:textSize="16sp"
+                    android:textColor="#555555"
+                    android:layout_marginTop="4dp" />
+
+                <Button
+                    android:id="@+id/book_room_service_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:backgroundTint="#1E5F32"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
